@@ -1,0 +1,30 @@
+.d-flex{
+    position: relative;
+    bottom: -9px;
+    
+}
+.btn-group{
+    position: relative;
+    top: 1px;
+    right: 30px;
+    color: white;
+    background-color: white;
+    border-radius: 5px;
+}
+.Zopolnenie{
+    position:relative;
+    top: 15px;
+}
+.oplata{
+    position: relative;
+    left: 0px;
+}
+.form-check{
+    position: relative;
+    left: 0px;
+}
+.ttt{
+    position: relative;
+    top: 15px;
+    left: 0px;
+}

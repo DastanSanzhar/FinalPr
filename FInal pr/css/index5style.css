@@ -1,0 +1,106 @@
+*{
+    margin: 0px auto;
+    padding: auto;
+  
+  }
+.firstlist{
+    width: 100%;
+    height: 100%;
+   background-color: transparent;
+   background-image: url('file:///C:/Users/SULTAN/Desktop/%D0%A4%D0%B0%D0%B9%D0%BD%D0%B0%D0%BB%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82/img/login.jpg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   opacity: 1.5;
+   z-index: 2;
+    filter: brightness(60%);
+ }
+ .firstlist img{
+    position: relative;
+    top: 23px;
+    left: 32px;
+    width: 180px;
+ }
+
+ .blackbox{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: rgba(0, 0, 0, 0.774);
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 62px;
+    right: 2px;
+    border-radius: 50px;
+}
+ .login{
+     color: rgb(255, 255, 255);
+     position: relative;
+     position: relative;
+     top: 42px;
+     left: 49px;
+     font-size: 30px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .blackbox div{
+    position: relative;
+    top: 51px;
+    left: 51px;
+    filter: brightness(100%);
+}
+.blackbox input {
+    position: relative;
+    width: 346px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+.blackbox label{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.btn1{
+    height: 40px;
+    width: 180px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    border-radius: 7px;
+    color: white;
+    background-color: blue;
+}
+
+@media (max-width: 700px){
+    .blackbox{
+        top: 43px;
+        width: 350px;
+        height: 400px;
+    }
+
+    .blackbox input{
+        width: 250px;
+        height: 30px;
+    }
+
+    .blackbox label{
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+
+}
+.blackbox p{
+    position: relative;
+    top: 4px;
+    left: 50px;
+}input::placeholder{
+    color: black;
+}
+.openRegisterPage a{
+    text-decoration: none;
+    color: white;
+}
+.openRegisterPage a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+button{
+    width: ;
+}
